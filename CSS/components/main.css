@@ -1,0 +1,116 @@
+.main{
+  max-width:100%;
+  min-height:100%;
+  margin: 0;
+  position:relative;
+  background: blue;
+  z-index: 1;
+}
+
+.main_child{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 7px;
+    color: white ;
+    z-index: 1;
+    /*box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);*/
+}
+.main_img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 15px;
+}
+.main img {
+  width: 35%;
+  height: auto;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.main h1{
+  font-size: 240%;
+  font-weight: bold;
+  z-index: 1;
+  color: white ;
+}
+.main h2{
+  font-size: 170%;
+  z-index: 1;
+  font-style: normal;
+  font-weight: normal;
+  color: white ;
+}
+
+.main h3{
+  font-size: 150%;
+  font-weight: lighter;
+  font-style: italic;
+  z-index: 1;
+  color: white ;
+  margin: 28px;
+}
+
+ul{
+  list-style: decimal;
+}
+
+li{
+  text-align: left;
+  font-size: 130%;
+  font-weight: lighter;
+  font-style: italic;
+  z-index: 1;
+  color: white ;
+  margin: 5px;
+  text-shadow: 2px 2px black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .main img {
+    width: 38%;
+    height: auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .main img {
+    width: 40%;
+    height: auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 960px, this CSS will be read */
+  .main img {
+    width: 46%;
+    height: auto;
+  }
+}
+/*background div*/
+
+#Pourquoi_Mauritanie{
+  background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 10%, rgba(0, 0, 0, 0.2) 80%), url(../../images/nouakchott-mauritanie.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0px;
+}
+
+#Le_projet{
+  background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 10%, rgba(0, 0, 0, 0.2) 80%), url(../../images/centre.JPG);
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0px;
+}
+
+#Notre_equipe{
+  background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 10%, rgba(0, 0, 0, 0.2) 80%), url(../../images/ieseg.JPG);
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0px;
+}
