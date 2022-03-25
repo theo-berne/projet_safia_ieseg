@@ -134,3 +134,9 @@
   background-size: cover;
   padding: 60px 0px;
 }
+#Soutenir_action{
+  background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 10%, rgba(0, 0, 0, 0.2) 80%), url(../../images/fin.JPG);
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0px;
+}
